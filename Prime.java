@@ -5,7 +5,7 @@ public class Prime {
         int n = sc.nextInt();
         int d = 0;
 
-        for(int i=2;i<=n;i++){
+        for(int i=2;i*i<=n;i++){
             if(n % i == 0){
                 d++;
             }
